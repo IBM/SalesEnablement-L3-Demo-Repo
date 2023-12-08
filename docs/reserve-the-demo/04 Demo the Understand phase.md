@@ -1,3 +1,5 @@
 # Demo the Understand Phase using the Application Discovery Tool on IBM watsonx Code Assistant for Z 
-1. step 1
-2. 
+1. In Z Virtual Access, click IBM Developer for z/OS (A) in the taskbar to open it.
+   ![](images/taskbar1.png)
+   It may take a minute for the application to open.
+   ![](images/splash.png)
