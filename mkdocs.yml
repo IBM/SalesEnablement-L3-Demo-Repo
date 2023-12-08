@@ -12,6 +12,7 @@ nav:
     - 'Introduction': 'reserve-the-demo/01 Introduction.md'
     - 'Reserve the environment': 'reserve-the-demo/02 Reserve the environment.md'
     - 'Logging into Z Virtual Access': 'reserve-the-demo/03 Logging into Z Virtual Access.md'
+    - 'Demo the Understand phase': 'reserve-the-demo/04 Demo the Understand phase.md'
 
 theme:
   name: material
