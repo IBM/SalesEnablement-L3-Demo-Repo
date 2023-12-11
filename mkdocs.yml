@@ -36,5 +36,5 @@ theme:
         name: Switch to light mode
 
 markdown_extensions: 
-- attr_list
-- sane_lists
+  - attr_list
+  - sane_lists
