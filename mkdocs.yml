@@ -12,7 +12,7 @@ nav:
     - 'Reserve the environment': 'reserve-the-demo/02 Reserve the environment.md'
     - 'Logging into Z Virtual Access': 'reserve-the-demo/03 Logging into Z Virtual Access.md'
   
-  - Part 2 - Demo the Understand phase':
+  - Part 2 - Demo the Understand phase:
     - 'Demo the Understand phase using the Application Discovery Tool in IBM watsonx Code Assistant for Z': 'demo-the-understand/Demo the Understand phase.md'
 
 theme:

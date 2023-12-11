@@ -1,10 +1,10 @@
 # Demo the Understand Phase using the Application Discovery Tool on IBM watsonx Code Assistant for Z 
 1. In Z Virtual Access, click IBM Developer for z/OS (A) in the taskbar to open it.
    ![](images/taskbar1.png)
-
+   
    It may take a minute for the application to open, but you will soon see the splash screen.
    ![](images/splash.png)
-
+   
    The IBM Developer for z/OS Integrated Developer Environment (IDE) opens displaying the **Explore projects** tab (A).
    ![](images/explorprojects1.png)
 
@@ -31,6 +31,6 @@
    A call graph is loaded with all the transactions in this profiled application. (Note: it may take a few minutes for the graph to build.)
    ![](images/callgraph.png)
 
-8. Zoom in so you can see the transaction named **SSC1** (A). This transaction is related to the CUSTOMER table. The SSC1 transaction is used to Add, Insert, and Update the CUSTOMER table. SSC1 will be used in the next phase.
+6. Zoom in so you can see the transaction named **SSC1** (A). This transaction is related to the CUSTOMER table. The SSC1 transaction is used to Add, Insert, and Update the CUSTOMER table. SSC1 will be used in the next phase.
 
 
