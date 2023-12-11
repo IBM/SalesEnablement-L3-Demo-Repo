@@ -4,7 +4,6 @@
    
    It may take a minute for the application to open, but you will soon see the splash screen.
    ![](images/splash.png)
-   
    The IBM Developer for z/OS Integrated Developer Environment (IDE) opens displaying the **Explore projects** tab (A).
    ![](images/explorprojects1.png)
 
