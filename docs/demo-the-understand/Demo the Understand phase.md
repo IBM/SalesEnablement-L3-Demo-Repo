@@ -13,7 +13,6 @@
 
 3. Click **GenApp** (A) in the **Project** list.
    ![](images/GenApp.png)
-
    A new field with a list of options appears on the right side of the screen.
 
 4. From the quick filter pane (A), expand the **Mainframe Graphs** twistie (B), and double-click **Transaction Callgraph** (C).
@@ -32,5 +31,3 @@
    ![](images/callgraph.png)
 
 6. Zoom in so you can see the transaction named **SSC1** (A). This transaction is related to the CUSTOMER table. The SSC1 transaction is used to Add, Insert, and Update the CUSTOMER table. SSC1 will be used in the next phase.
-
-
