@@ -8,7 +8,7 @@
    The IBM Developer for z/OS Integrated Developer Environment (IDE) opens displaying the **Explore projects** tab (A).
    ![](images/explorprojects1.png)
 
-2. Right-click below the quick filter area (A), and click **Get project list** (B). { start=2 }
+2. Right-click below the quick filter area (A), and click **Get project list** (B).
    ![](images/getprojlist.png)
 
 3. Click **GenApp** (A) in the **Project** list.
