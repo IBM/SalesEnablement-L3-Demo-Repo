@@ -506,31 +506,89 @@
 
 <h1 id="how-to-run-the-refactor-phase-using-ibm-watsonx-code-assistant-for-z-refactoring-assistant">How to run the Refactor phase using IBM watsonx Code Assistant for Z Refactoring Assistant</h1>
 <ol>
-<li>Open the PuTTy app from the taskbar at the bottom (A) of the demo window. It may take a few minutes to open.
+<li>Open the PuTTy app from the taskbar at the bottom <strong>(A)</strong> of the demo window. It may take a few minutes to open.
    <img alt="" src="../images/openPutty.png" /></li>
-<li>Select <strong>wca4z-ra</strong> from the <strong>Saved Sessions</strong> box (A), and click <strong>Open</strong> (B).
+<li>Select <strong>wca4z-ra</strong> from the <strong>Saved Sessions</strong> box <strong>(A)</strong>, and click <strong>Open</strong> <strong>(B)</strong>.
    <img alt="" src="../images/savedsessions.png" /></li>
-<li>After clicking <strong>Open</strong> in the previous step the following warning message will pop-up. Click <strong>Accept</strong> (A). This warning will only be displayed one time if you do this demo again.
+<li>After clicking <strong>Open</strong> in the previous step the following warning message will pop-up. Click <strong>Accept</strong> <strong>(A)</strong>. This warning will only be displayed one time if you do this demo again.
    <img alt="" src="../images/puttywarning.png" /></li>
-<li>A script will run in PuTTy to start the Refactoring Assistant. When you see the text <strong>IBM Watson code assistant for Z Refactoring Assistant started</strong> (A) at the bottom of the PuTTy window, you can close the PuTTy window by clicking the <strong>X</strong> (B) in the top-right corner. You will be asked <strong>Are you sure you want to close the session?</strong>. Click <strong>OK</strong> (C).
+<li>A script will run in PuTTy to start the Refactoring Assistant. When you see the text <strong>IBM Watson code assistant for Z Refactoring Assistant started</strong> <strong>(A)</strong> at the bottom of the PuTTy window, you can close the PuTTy window by clicking the <strong>X</strong> <strong>(B)</strong> in the top-right corner. You will be asked <strong>Are you sure you want to close the session?</strong>. Click <strong>OK</strong> <strong>(C)</strong>.
    <img alt="" src="../images/closeputty.png" /></li>
-<li>Click the Firefox icon (A) in the taskbar of the demo window to open it. It may take a few minutes to open.
+<li>Click the Firefox icon <strong>(A)</strong> in the taskbar of the demo window to open it. It may take a few minutes to open.
    <img alt="" src="../images/openfirefox.png" /></li>
-<li>Click the IBM watsonx Code Assistant for Z Refactoring Assistant link in the Favorites bar at the top or click <strong>wca4z-ra.ibm</strong> below the Firefox search bar (A).
+<li>Click the IBM watsonx Code Assistant for Z Refactoring Assistant link in the Favorites bar at the top or click <strong>wca4z-ra.ibm</strong> below the Firefox search bar <strong>(A)</strong>.
    <img alt="" src="../images/openfirefox2.png" /></li>
-<li>Login with the following credentials, and click <strong>Log in</strong> (C) to proceed to the IBM watsonx Code Assistant for Z Refactoring Assistant:
-   - Email address: dev@wca4z-ra.ibm.com (A)
-   - Password: password (B)
+<li>Login with the following credentials, and click <strong>Log in</strong> <strong>(C)</strong> to proceed to the IBM watsonx Code Assistant for Z Refactoring Assistant:
+   - Email address: dev@wca4z-ra.ibm.com <strong>(A)</strong>
+   - Password: password <strong>(B)</strong>
   <img alt="" src="../images/wcaralogin.png" /></li>
 <li>After logging in, you will see following tabs:<ul>
-<li>My workspaces (A) (the default)</li>
-<li>Workspaces shared with me (B)
+<li>My workspaces <strong>(A)</strong> (the default)</li>
+<li>Workspaces shared with me <strong>(B)</strong>
   <img alt="" src="../images/myworkspaces.png" />
   After building a project in the Understand phase, you can create a workspace to work on that project with IBM watsonx Code Assistant for Z Refactoring Assistant.</li>
 </ul>
 </li>
 <li>In the <strong>My workspaces</strong> tab, click <strong>Create workspace</strong> on the right (A).
     <img alt="" src="../images/createworkspace.png" /></li>
+<li>In the <strong>Create workspace</strong> dialog box:<ul>
+<li>Type a name for the workspace that you want to create. For example: <strong>WCA4Z-DEM-WS</strong> <strong>(A)</strong>.</li>
+<li>Optionally, add a description in the <strong>Description</strong> box <strong>(B)</strong>. For example: <strong>Workspace for WCA4Z for GenApp application</strong>.</li>
+<li>Click the <strong>AD Project</strong> dropdown list, and select the project that you built with the IBM Application Discovery (AD) Build Client. In this lab, select <strong>GenApp</strong> <strong>(C)</strong>. </li>
+<li>Click <strong>Create</strong> (D) to create the workspace.
+<img alt="" src="../images/createworkspace2.png" /></li>
+</ul>
+</li>
+<li>The GenApp workspace’s <strong>Graph</strong> tab <strong>(A)</strong> is displayed. Click in the <strong>Search</strong> bar <strong>(B)</strong> at the top. You will see the <strong>Artifact type</strong> drop-down menu.
+    <img alt="" src="../images/artifacttype.png" /></li>
+<li>Select <strong>All artifact types</strong> (it’s likely the default) to see a dropdown list of the different artifact types <strong>(A)</strong>.</li>
+<li>Select <strong>CICS transactions (B)</strong>.
+    <img alt="" src="../images/selectcics.png" /></li>
+<li>From the dropdown list of transactions, double-click the <strong>SSC1</strong> artifact <strong>(A)</strong> to open it.
+    <img alt="" src="../images/openssc1.png" /></li>
+<li>The <strong>SSC1</strong> transaction graph opens. <strong>Zoom out by 10%</strong> (A) using the magnifying glass icon (bottom left) until you can see the complete callgraph in the window.
+    <img alt="" src="../images/zoomoutssc1.png" /></li>
+<li>The entire graph should be displayed after zooming out. Locate and click on the <strong>CUSTOMER (A)</strong> table to highlight the flow of program dependencies for this table.
+    <img alt="" src="../images/customertable.png" /></li>
+<li>
+<p>In the Understand phase, you checked the callgraph for SSC1 transactions and then looked at the <strong>INSERT-CUSTOMER</strong> query in the LGACDB01 code.</p>
+<p>Now click the ellipsis icon (3 dots) beside <strong>LGACDB01 (A)</strong>. You are presented with the following actions <strong>(B)</strong>:
+- View properties
+- Identify conditional statements.
+- Identify paragraphs. 
+- Identify tables/file access statements. 
+18. Select <strong>Identify conditional statements</strong> <strong>(C)</strong> to display all conditional statements in the code in the order of importance/complexity.
+<img alt="" src="../images/identifycondstatements.png" />
+19. The screen will switch to <strong>Workbook</strong> tab <strong>(A)</strong> that displays the key conditional statements in the code in the order of importance/complexity (B).
+<img alt="" src="../images/workbooktab.png" />
+20. Select the <strong>Graph</strong> tab <strong>(A)</strong> on the top right to return to the <strong>Graph</strong> tab (that’s where you were in steps 17/18).
+<img alt="" src="../images/graphtab.png" />
+21. Repeat the same thing you did in Steps 17/18, only this time select <strong>Identify paragraphs (C)</strong>.
+<img alt="" src="../images/identityparagraphs.png" />
+22. The screen will switch to the <strong>Workbook</strong> tab with a paragraph identification form.
+You will see 3 sections:
+- <strong>Workbook details (A)</strong> on the left.
+- <strong>Paragraphs in the code (B)</strong>, in the order of importance/complexity, in the middle section.
+- The <strong>artifact’s code (C)</strong> in the right section.
+  <img alt="" src="../images/workbooktab2.png" />
+23. Click <strong>INSERT-CUSTOMER (A)</strong> in the <strong>Key conditions</strong> box where <strong>Select a key condition type</strong> drop-down is set to <strong>Paragraphs</strong> to jump to this code on the right.
+<img alt="" src="../images/insert-customer.png" />
+24. For Windows users: Click the <strong>INSERT-CUSTOMER</strong> text (line 232) in the code, then right-click <strong>(A)</strong> to see the <strong>Slice on paragraph to new workbook</strong> option. Double-click <strong>Slice on paragraph to new workbook</strong> <strong>(B)</strong>.</p>
+<p>For Mac users: Click the <strong>INSERT-CUSTOMER</strong> text (line 232) in the code, then right-click <strong>(A)</strong> to see the <strong>Slice on paragraph to new workbook</strong> option. Click <strong>Slice on paragraph to new workbook</strong> <strong>(B)</strong>.
+<img alt="" src="../images/sliceon.png" /></p>
+<blockquote>
+<p><strong>NOTE</strong>: Mac users: When you right-click, if the <strong>Slice on paragraph to new workbook</strong> option does not appear, please update your Mac Systems Settings by clicking the Mac apple icon from your top toolbar &gt; select <strong>System Settings</strong> &gt; <strong>Trackpad</strong>. In your Trackpad preferences, update your <strong>Secondary click</strong> to <strong>Click in Bottom Right Corner</strong>. Then hover over <strong>INSERT-CUSTOMER</strong> and click the bottom-right corner of your trackpad to see the <strong>Slice on paragraph to new workbook</strong> option.
+25. The <strong>Slice to a new workbook</strong> pop-up window will appear. Enter <strong>LGACDB01 (A)</strong> in the <strong>Workbook name</strong> field, and click <strong>Save (B)</strong>.
+<img alt="" src="../images/sliceto2.png" />
+26. The selected paragraph of code will be sliced into a new workbook (called <strong>LGACDB01</strong>) and displayed on the left <strong>(A)</strong>. Note how the selected code is marked with a dotted blue line in the code editor on the right <strong>(B)</strong>.
+<img alt="" src="../images/sliceto3.png" />
+27. In the <strong>Workbook details</strong> section, click the ellipsis icon (3 dots) beside <strong>Status (A)</strong>.
+28. Select the <strong>Export</strong> option to export the sliced code <strong>(B)</strong>. An <strong>Export workbox LGACDB01</strong> window will appear. Click <strong>Save (C)</strong>.
+<img alt="" src="../images/savesliceon.png" />
+29. A pop-up window will appear with a default location to save the exported sliced code. Click <strong>Desktop</strong> on the left <strong>(A)</strong> and navigate to the following: <strong>Desktop\WCAZ Lab Data\nazare-demo-cics-genapp\base\src\cobol (B)</strong>. Then click <strong>Save (C)</strong> to save the exported code.
+<img alt="" src="../images/savesliceon2.png" /></p>
+</blockquote>
+</li>
 </ol>
 
 
