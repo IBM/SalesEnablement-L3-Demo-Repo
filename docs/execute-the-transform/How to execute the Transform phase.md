@@ -43,4 +43,16 @@
     ![](images/customerjava-more.png)
 19. In the **EXPLORER** panel, return to the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** project, and double-click **CustomerRequest.java (A)** to open it.
     ![](images/customerreqjava.png)
-20. CustomerRequest.java opens in a new tab. (You might have to scroll to see all of the code.) At the bottom of CustomerRequest.java, hover over the insertCustomer method name (A). The cursor will change to a hand tool.
+20. **CustomerRequest.java** opens in a new tab. (You might have to scroll to see all of the code.) At the bottom of **CustomerRequest.java**, hover over the **insertCustomer** method name **(A)**. The cursor will change to a hand tool.
+    ![](images/insertcust.png)
+21. Right click on the **insertCustomer** code **(A)**. Then click **IBM Watsonx Code Assistant for Z (B)**, and click **Generate Method (C)**.
+    
+    ![](images/genmethod.png)
+
+    A new **java-generate** tab opens to the right.
+    ![](images/javagenerate.png)
+
+22. Click **Insert (A)** at the bottom right of the **java-generate** tab to insert the Java method into the **CustomerRequest.java** code file.
+    ![](images/insertjavamethod.png)
+    Notice that the Java method details are added to **CustomerRequest.java** class file in the **insertCustomer** method.
+    ![](images/result.png)
