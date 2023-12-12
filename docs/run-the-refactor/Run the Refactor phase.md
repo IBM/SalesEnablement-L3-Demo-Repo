@@ -77,6 +77,3 @@
     ![](images/savesliceon.png)
 29. A pop-up window will appear with a default location to save the exported sliced code. Click **Desktop** on the left **(A)** and navigate to the following: **Desktop\WCAZ Lab Data\nazare-demo-cics-genapp\base\src\cobol (B)**. Then click **Save (C)** to save the exported code.
     ![](images/savesliceon2.png)
-
-   
-

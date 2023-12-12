@@ -18,7 +18,11 @@ nav:
 
   - Part 3 - Run the Refactor phase:
     - 'How to run the Refactor phase using IBM watsonx Code Assistant for Z Refactoring Assistant': 'run-the-refactor/Run the Refactor phase.md'
+    - 'Section summary': 'run-the-refactor/Run the Refactor phase summary.md'
 
+  - Part 4 - Execute the Transform phase:
+    - 'How to execute the Transform phase using Visual Studio Code': 'execute-the-transform/How to execute the Transform phase.md'
+  
 theme:
   name: material
   features:
