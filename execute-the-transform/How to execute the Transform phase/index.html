@@ -600,6 +600,45 @@
    <img alt="" src="../images/closeenable.png" /></li>
 <li>In the <strong>EXPLORER</strong> panel on the left, ensure that the <strong>NAZARE-DEMO-CICS-GENAPP (WORKSPACE)</strong> twistie is collapsed <strong>(A)</strong> (you may not need to do this depending on your screen size), and then expand <strong>IBM WATSONX CODE ASSISTANT FOR Z (B)</strong>.
    <img alt="" src="../images/twisties.png" /></li>
+<li>You will see a warning that Visual Studio Code is missing an API key. Click the <strong>Missing watsonx API key</strong> warning <strong>(A)</strong> (the yellow text).
+   <img alt="" src="../images/apiwarning.png" /></li>
+<li>The <strong>Enter watsonx API key (Press ‘Enter’ to confirm or ‘Escape’ to cancel)</strong> box appears at the top of the IDE - Visual Studio Code screen. Enter <code>ABCDEFGH</code> <strong>(A)</strong>, and press the Enter key <strong>(B)</strong>.
+   <img alt="" src="../images/enterapi.png" />
+   <strong>Note</strong>: <code>ABCDEFGH</code> is a fake API key only for this demo. In a real environment, a real API key must be used.</li>
+<li>In the <strong>EXPLORER</strong> panel on the left, expand the <strong>NAZARE-DEMO-CICS-GENAPP (WORKSPACE)</strong> twistie (A), and click <strong>LGACDB01.cbl</strong> <strong>(B)</strong>. A new tab opens to the right displaying the COBOL code.
+   <img alt="" src="../images/opencobolcode.png" /></li>
+<li>In the <strong>EXPLORER</strong> panel on the left, right-click <strong>LGACDB01.cbl</strong> <strong>(A)</strong>, and click on <strong>Import COBOL program (B)</strong>.
+   <img alt="" src="../images/importcobol.png" />
+   <strong>Note</strong>: The COBOL program is imported to <strong>IBM WATSONX CODE ASSISTANT FOR Z</strong> as <strong>base\LGACDB01.cbl</strong>. You might have to collapse the <strong>NAZARE-DEMO-CICS-GENAPP (WORKSPACE)</strong> twistie.</li>
+<li>In the <strong>EXPLORER</strong> panel, under <strong>IBM WATSONX CODE ASSISTANT FOR Z</strong>, expand the <strong>base\LGACDB01.cbl</strong> twistie <strong>(A)</strong>.
+    <img alt="" src="../images/expandwca4ztwistie.png" />
+    You will see two entries:<ul>
+<li>Generate Java Identifiers</li>
+<li>Generate Java Methods</li>
+</ul>
+</li>
+<li>Click <strong>Generate Java Identifiers (A)</strong>. A <strong>Generate Java Classes</strong> input bar appears at the top middle of the IDE - Visual Studio Code screen.
+    <img alt="" src="../images/genjavaid.png" /></li>
+<li>Enter <code>java</code> <strong>(A)</strong>, and press Enter <strong>(B)</strong>.
+    <img alt="" src="../images/enterjava.png" /></li>
+<li>A new input bar opens in the same location. Enter <code>com.ibm.wcaz</code> <strong>(A)</strong>, and press Enter <strong>(B)</strong>.
+    <img alt="" src="../images/enterjavaclass.png" /></li>
+<li>A new <strong>Java identifiers</strong> tab appears on the right-hand side of the window.
+    <img alt="" src="../images/javaid.png" /></li>
+<li>Click the twistie to expand the <strong>LGACDB01</strong> artifact <strong>(A)</strong>. You can see the variables that are used in the LGACDB01 artifact.</li>
+<li>Click the twistie to expand the <strong>CUSTOMER</strong> artifact <strong>(B)</strong>. You can see the variables that are used in the CUSTOMER artifact.
+    <img alt="" src="../images/expandcust.png" /></li>
+<li>At the right bottom of the <strong>Java Identifiers</strong> tab, click <strong>Generate Java classes (A)</strong>.
+    <img alt="" src="../images/genjavaclasses.png" /></li>
+<li>In the <strong>EXPLORER</strong> panel, return to the <strong>NAZARE-DEMO-CICS-GENAPP (WORKSPACE)</strong> project <strong>(A)</strong>.
+    <img alt="" src="../images/nazare-demo.png" /></li>
+<li>Double-click <strong>Customer.java</strong> class <strong>(A)</strong> to open it. Customer.java opens in a new tab. (You might have to scroll to see all of the code.)
+    <img alt="" src="../images/customerjava.png" />
+    In the Customer.java class, you can see the getter, setters, and variable overrides.
+    <img alt="" src="../images/customerjava-more.png" /></li>
+<li>In the <strong>EXPLORER</strong> panel, return to the <strong>NAZARE-DEMO-CICS-GENAPP (WORKSPACE)</strong> project, and double-click <strong>CustomerRequest.java (A)</strong> to open it.
+    <img alt="" src="../images/customerreqjava.png" /></li>
+<li>CustomerRequest.java opens in a new tab. (You might have to scroll to see all of the code.) At the bottom of CustomerRequest.java, hover over the insertCustomer method name (A). The cursor will change to a hand tool.</li>
 </ol>
 
 
