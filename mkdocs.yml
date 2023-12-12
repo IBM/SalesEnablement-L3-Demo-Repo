@@ -16,6 +16,9 @@ nav:
     - 'Demo the Understand phase using the Application Discovery Tool in IBM watsonx Code Assistant for Z': 'demo-the-understand/Demo the Understand phase.md'
     - 'Section summary': 'demo-the-understand/Demo the Understand phase summary.md'
 
+  - Part 3 - Run the Refactor phase:
+    - 'How to run the Refactor phase using IBM watsonx Code Assistant for Z Refactoring Assistant': 'run-the-refactor/Run the Refactor phase.md'
+
 theme:
   name: material
   features:
