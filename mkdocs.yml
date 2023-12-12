@@ -22,6 +22,7 @@ nav:
 
   - Part 4 - Execute the Transform phase:
     - 'How to execute the Transform phase using Visual Studio Code': 'execute-the-transform/How to execute the Transform phase.md'
+    - 'Section summary': 'execute-the-transform/How to execute the Transform phase summary.md'
   
 theme:
   name: material
