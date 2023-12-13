@@ -47,6 +47,7 @@
     - Identify conditional statements.
     - Identify paragraphs. 
     - Identify tables/file access statements. 
+
 18. Select **Identify conditional statements** **(C)** to display all conditional statements in the code in the order of importance/complexity.
     ![](images/identifycondstatements.png)
 19. The screen will switch to **Workbook** tab **(A)** that displays the key conditional statements in the code in the order of importance/complexity (B).
@@ -61,19 +62,19 @@
     - **Paragraphs in the code (B)**, in the order of importance/complexity, in the middle section.
     - The **artifact’s code (C)** in the right section.
   ![](images/workbooktab2.png)
-23. Click **INSERT-CUSTOMER (A)** in the **Key conditions** box where **Select a key condition type** drop-down is set to **Paragraphs** to jump to this code on the right.
+1.  Click **INSERT-CUSTOMER (A)** in the **Key conditions** box where **Select a key condition type** drop-down is set to **Paragraphs** to jump to this code on the right.
     ![](images/insert-customer.png)
-24. For Windows users: Click the **INSERT-CUSTOMER** text (line 232) in the code, then right-click **(A)** to see the **Slice on paragraph to new workbook** option. Double-click **Slice on paragraph to new workbook** **(B)**.
+2.  For Windows users: Click the **INSERT-CUSTOMER** text (line 232) in the code, then right-click **(A)** to see the **Slice on paragraph to new workbook** option. Double-click **Slice on paragraph to new workbook** **(B)**.
     
     For Mac users: Click the **INSERT-CUSTOMER** text (line 232) in the code, then right-click **(A)** to see the **Slice on paragraph to new workbook** option. Click **Slice on paragraph to new workbook** **(B)**.
     ![](images/sliceon.png)
     > **NOTE**: Mac users: When you right-click, if the **Slice on paragraph to new workbook** option does not appear, please update your Mac Systems Settings by clicking the Mac apple icon from your top toolbar > select **System Settings** > **Trackpad**. In your Trackpad preferences, update your **Secondary click** to **Click in Bottom Right Corner**. Then hover over **INSERT-CUSTOMER** and click the bottom-right corner of your trackpad to see the **Slice on paragraph to new workbook** option.
-25. The **Slice to a new workbook** pop-up window will appear. Enter **LGACDB01 (A)** in the **Workbook name** field, and click **Save (B)**.
+3.  The **Slice to a new workbook** pop-up window will appear. Enter **LGACDB01 (A)** in the **Workbook name** field, and click **Save (B)**.
     ![](images/sliceto2.png)
-26. The selected paragraph of code will be sliced into a new workbook (called **LGACDB01**) and displayed on the left **(A)**. Note how the selected code is marked with a dotted blue line in the code editor on the right **(B)**.
+4.  The selected paragraph of code will be sliced into a new workbook (called **LGACDB01**) and displayed on the left **(A)**. Note how the selected code is marked with a dotted blue line in the code editor on the right **(B)**.
     ![](images/sliceto3.png)
-27. In the **Workbook details** section, click the ellipsis icon (3 dots) beside **Status (A)**.
-28. Select the **Export** option to export the sliced code **(B)**. An **Export workbox LGACDB01** window will appear. Click **Save (C)**.
+5.  In the **Workbook details** section, click the ellipsis icon (3 dots) beside **Status (A)**.
+6.  Select the **Export** option to export the sliced code **(B)**. An **Export workbox LGACDB01** window will appear. Click **Save (C)**.
     ![](images/savesliceon.png)
-29. A pop-up window will appear with a default location to save the exported sliced code. Click **Desktop** on the left **(A)** and navigate to the following: **Desktop\WCAZ Lab Data\nazare-demo-cics-genapp\base\src\cobol (B)**. Then click **Save (C)** to save the exported code.
+7.  A pop-up window will appear with a default location to save the exported sliced code. Click **Desktop** on the left **(A)** and navigate to the following: **Desktop\WCAZ Lab Data\nazare-demo-cics-genapp\base\src\cobol (B)**. Then click **Save (C)** to save the exported code.
     ![](images/savesliceon2.png)
