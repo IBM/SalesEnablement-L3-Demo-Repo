@@ -19,7 +19,7 @@
    ![](images/opencobolcode.png)
 8. In the **EXPLORER** panel on the left, right-click **LGACDB01.cbl** **(A)**, and click **Import COBOL program** **(B)**.
    ![](images/importcobol.png)
-   **Note**: The COBOL program is imported to **IBM WATSONX CODE ASSISTANT FOR Z** as **base\LGACDB01.cbl**. You might have to collapse the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** twistie.
+   The COBOL program is imported to **IBM WATSONX CODE ASSISTANT FOR Z** as **base\LGACDB01.cbl**. You might have to collapse the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** twistie.
 
 9.  In the **EXPLORER** panel, under **IBM WATSONX CODE ASSISTANT FOR Z**, expand the **base\LGACDB01.cbl** twistie **(A)**.
     ![](images/expandwca4ztwistie.png)
