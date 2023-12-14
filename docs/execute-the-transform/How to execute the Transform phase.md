@@ -18,14 +18,14 @@
 7. In the **EXPLORER** panel on the left, expand the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** twistie (A), and click **LGACDB01.cbl** **(B)**. A new tab opens to the right displaying the COBOL code.
    ![](images/opencobolcode.png)
 8. In the **EXPLORER** panel on the left, right-click **LGACDB01.cbl** **(A)**, and click **Import COBOL program** **(B)**.
-   ![](images/importcobol.png)
    The COBOL program is imported to **IBM WATSONX CODE ASSISTANT FOR Z** as **base\LGACDB01.cbl**. You might have to collapse the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** twistie.
+   ![](images/importcobol.png)
 
 9.  In the **EXPLORER** panel, under **IBM WATSONX CODE ASSISTANT FOR Z**, expand the **base\LGACDB01.cbl** twistie **(A)**.
-    ![](images/expandwca4ztwistie.png)
-    You will see two entries:
+    - You will see two entries:
     - Generate Java Identifiers
     - Generate Java Methods
+    ![](images/expandwca4ztwistie.png)
 10. Click **Generate Java Identifiers (A)**. A **Generate Java Classes** input bar appears at the top middle of the IDE - Visual Studio Code screen.
     ![](images/genjavaid.png)
 11. Enter `java` **(A)**, and press Enter **(B)**.
