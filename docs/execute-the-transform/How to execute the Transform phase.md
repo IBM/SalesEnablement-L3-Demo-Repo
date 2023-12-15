@@ -66,5 +66,6 @@
 
 22. Click **Insert (A)** at the bottom right of the **java-generate** tab to insert the Java method into the **CustomerRequest.java** code file.
     ![](images/insertjavamethod.png)
+    
     Notice that the Java method details are added to **CustomerRequest.java** class file in the **insertCustomer** method.
     ![](images/result.png)
