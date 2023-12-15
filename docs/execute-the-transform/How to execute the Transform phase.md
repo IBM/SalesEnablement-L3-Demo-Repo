@@ -23,12 +23,12 @@
    ![](images/importcobol.png)
 
 9.  In the **EXPLORER** panel, under **IBM WATSONX CODE ASSISTANT FOR Z**, expand the **base\LGACDB01.cbl** twistie **(A)**.
-    - You will see two entries:
+    You will see two entries:
     - Generate Java Identifiers
     - Generate Java Methods
   
     ![](images/expandwca4ztwistie.png)
-    
+
 10. Click **Generate Java Identifiers (A)**. A **Generate Java Classes** input bar appears at the top middle of the IDE - Visual Studio Code screen.
     ![](images/genjavaid.png)
 11. Enter `java` **(A)**, and press Enter **(B)**.
