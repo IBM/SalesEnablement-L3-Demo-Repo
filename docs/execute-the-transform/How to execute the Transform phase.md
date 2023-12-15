@@ -49,6 +49,7 @@
     
     In the Customer.java class, you can see the getter, setters, and variable overrides.
     ![](images/customerjava-more.png)
+    
 19. In the **EXPLORER** panel, return to the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** project, and double-click **CustomerRequest.java (A)** to open it.
     ![](images/customerreqjava.png)
 20. **CustomerRequest.java** opens in a new tab. (You might have to scroll to see all of the code.) At the bottom of **CustomerRequest.java**, hover over the **insertCustomer** method name **(A)**. The cursor will change to a hand tool.
