@@ -46,6 +46,7 @@
     ![](images/nazare-demo.png)
 18. Double-click **Customer.java** class **(A)** to open it. Customer.java opens in a new tab. (You might have to scroll to see all of the code.)
     ![](images/customerjava.png)
+    
     In the Customer.java class, you can see the getter, setters, and variable overrides.
     ![](images/customerjava-more.png)
 19. In the **EXPLORER** panel, return to the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** project, and double-click **CustomerRequest.java (A)** to open it.
