@@ -42,7 +42,7 @@
     ![](images/expandcust.png)
 16. At the right bottom of the **Java Identifiers** tab, click **Generate Java classes (A)**.
     ![](images/genjavaclasses.png)
-17. In the **EXPLORER** panel, return to the **NAZARE-DEMO-CICS-GENAPP (WORKSPACE)** project **(A)**.
+17. In the **EXPLORER** panel, return to **NAZARE-DEMO-CICS-GENAPP (WORKSPACE) (A)**.
     ![](images/nazare-demo.png)
 18. Double-click **Customer.java** class **(A)** to open it. Customer.java opens in a new tab. (You might have to scroll to see all of the code.)
     ![](images/customerjava.png)
