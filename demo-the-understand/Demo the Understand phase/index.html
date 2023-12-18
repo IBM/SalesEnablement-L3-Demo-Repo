@@ -666,16 +666,14 @@
    It may take a moment for the pop-up needed to do the next step to open. You will see <strong>executing Transaction Callgraph</strong> at the bottom with a green progress bar.</p>
 </li>
 <li>
-<p>This time (unlike in Step 7), select only the <strong>SSC1</strong> transaction (A), and this time use the <strong>add selected items</strong> icon (it looks like a play button) (B) to just add this one transaction to the <strong>Selected transactions</strong> box on the right. Then click <strong>Finish</strong> (C).
+<p>This time (unlike in Step 7), select only the <strong>SSC1</strong> transaction <strong>(A)</strong>, and this time use the <strong>add selected items</strong> icon (it looks like a play button) <strong>(B)</strong> to just add this one transaction to the <strong>Selected transactions</strong> box on the right. Then click <strong>Finish</strong> <strong>(C)</strong>.
    <img alt="" src="../images/ssc1-select-finish.png" />
    The SSCI transaction graph begins loading. (This may take a minute to load, you will see Loading graph message in the middle of the screen).
    <img alt="" src="../images/callgraphssc1.png" />
-   A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:</p>
-</li>
-<li>The SSCI’s CICS transactions </li>
-<li>The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.</li>
-<li>
-<p>Depending on the function selected, it can perform different operations. In this example:</p>
+   A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:
+   - The SSCI’s CICS transactions
+   - The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.
+   - Depending on the function selected, it can perform different operations. In this example:</p>
 <ul>
 <li>Add/Insert Customer (LGACUS01)</li>
 <li>Inquire Customer (LGICUS01)</li>
@@ -684,20 +682,16 @@
 <li>Unknown program with no source code information (AAAAAAAA)</li>
 </ul>
 </li>
-<li>
-<p>These programs call data access programs that interact with the table CUSTOMER. For example:</p>
-<ul>
-<li>Add/Insert Customer (LGACDB01)</li>
-<li>Inquire Customer (LGICDB01)</li>
-<li>Update Customer (LGUCDB01)</li>
-<li>Writes messages back to the user (LGSTSQ)</li>
-<li>Unknown program with no source code information (AAAAAAAA)</li>
-</ul>
-</li>
-<li>
-<p>Double-click on the <strong>COBOL LGACDB01</strong> white and blue box (A). The code opens at the bottom (B).
-   <img alt="" src="../images/cobollgacdbo1.png" /></p>
-</li>
+</ol>
+<p>These programs call data access programs that interact with the table CUSTOMER. For example:
+      - Add/Insert Customer (LGACDB01)
+      - Inquire Customer (LGICDB01)
+      - Update Customer (LGUCDB01)
+      - Writes messages back to the user (LGSTSQ)
+      - Unknown program with no source code information (AAAAAAAA)</p>
+<ol start="9">
+<li>Double-click on the <strong>COBOL LGACDB01</strong> white and blue box (A). The code opens at the bottom (B).
+   <img alt="" src="../images/cobollgacdbo1.png" /></li>
 <li>Drag the <strong>LGACDB01</strong> code tab at the bottom, to the right side of the graph (A) in step 9 (before you release your button, you will see guardrails where this window will be placed) so you can see the code beside the navigation view.
    <img alt="" src="../images/cobollgacdbo11.png" />
    <strong>Note</strong>: Close all open tabs other than the tabs with the graph and code. The other tabs can be closed via the minimize icon (looks like –) in the top right of each window.</li>
