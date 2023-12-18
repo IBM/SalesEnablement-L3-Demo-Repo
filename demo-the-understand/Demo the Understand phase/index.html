@@ -659,25 +659,31 @@
 <li>As you use these tools, the <strong>Graph Overview</strong> window in the upper left allows you to see where you are in the graph and will highlight the area with a blue box.</li>
 </ul>
 <ol start="7">
-<li>Select the <strong>Explore</strong> tab (A) to return to the view shown in Step 4 where a list of options appears on the right side of the screen under the <strong>quick filter</strong> box. </li>
-</ol>
-<p>In this new field, expand the <strong>Mainframe Graphs</strong> twistie (B) and double-click the <strong>Transaction Callgraph</strong> option (A).
+<li>
+<p>Select the <strong>Explore</strong> tab (A) to return to the view shown in Step 4 where a list of options appears on the right side of the screen under the <strong>quick filter</strong> box. 
+   In this new field, expand the <strong>Mainframe Graphs</strong> twistie <strong>(B)</strong> and double-click the <strong>Transaction Callgraph</strong> option <strong>(A)</strong>.
    <img alt="" src="../images/quickfilter1.png" />
-   It may take a moment for the pop-up needed to do the next step to open. You will see <strong>executing Transaction Callgraph</strong> at the bottom with a green progress bar.
-2. This time (unlike in Step 7), select only the <strong>SSC1</strong> transaction (A), and this time use the <strong>add selected items</strong> icon (it looks like a play button) (B) to just add this one transaction to the <strong>Selected transactions</strong> box on the right. Then click <strong>Finish</strong> (C).
+   It may take a moment for the pop-up needed to do the next step to open. You will see <strong>executing Transaction Callgraph</strong> at the bottom with a green progress bar.</p>
+</li>
+<li>
+<p>This time (unlike in Step 7), select only the <strong>SSC1</strong> transaction (A), and this time use the <strong>add selected items</strong> icon (it looks like a play button) (B) to just add this one transaction to the <strong>Selected transactions</strong> box on the right. Then click <strong>Finish</strong> (C).
    <img alt="" src="../images/ssc1-select-finish.png" />
    The SSCI transaction graph begins loading. (This may take a minute to load, you will see Loading graph message in the middle of the screen).
    <img alt="" src="../images/callgraphssc1.png" />
-   A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:
-   1. The SSCI’s CICS transactions 
-   2. The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.
-   3. Depending on the function selected, it can perform different operations. In this example:
-      - Add/Insert Customer (LGACUS01)
-      - Inquire Customer (LGICUS01)
-      - Update Customer (LGUCUS01)
-      - Writes messages back to the user (LGSTSQ)
-      - Unknown program with no source code information (AAAAAAAA)</p>
-<ol start="4">
+   A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:</p>
+</li>
+<li>The SSCI’s CICS transactions </li>
+<li>The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.</li>
+<li>
+<p>Depending on the function selected, it can perform different operations. In this example:</p>
+<ul>
+<li>Add/Insert Customer (LGACUS01)</li>
+<li>Inquire Customer (LGICUS01)</li>
+<li>Update Customer (LGUCUS01)</li>
+<li>Writes messages back to the user (LGSTSQ)</li>
+<li>Unknown program with no source code information (AAAAAAAA)</li>
+</ul>
+</li>
 <li>
 <p>These programs call data access programs that interact with the table CUSTOMER. For example:</p>
 <ul>
