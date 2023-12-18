@@ -37,11 +37,11 @@
    - As you use these tools, the **Graph Overview** window in the upper left allows you to see where you are in the graph and will highlight the area with a blue box.
 
 7. Select the **Explore** tab (A) to return to the view shown in Step 4 where a list of options appears on the right side of the screen under the **quick filter** box. 
-   
-   In this new field, expand the **Mainframe Graphs** twistie (B) and double-click the **Transaction Callgraph** option (A).
+   In this new field, expand the **Mainframe Graphs** twistie **(B)** and double-click the **Transaction Callgraph** option **(A)**.
    ![](images/quickfilter1.png)
    It may take a moment for the pop-up needed to do the next step to open. You will see **executing Transaction Callgraph** at the bottom with a green progress bar.
-2. This time (unlike in Step 7), select only the **SSC1** transaction (A), and this time use the **add selected items** icon (it looks like a play button) (B) to just add this one transaction to the **Selected transactions** box on the right. Then click **Finish** (C).
+   
+8. This time (unlike in Step 7), select only the **SSC1** transaction (A), and this time use the **add selected items** icon (it looks like a play button) (B) to just add this one transaction to the **Selected transactions** box on the right. Then click **Finish** (C).
    ![](images/ssc1-select-finish.png)
    The SSCI transaction graph begins loading. (This may take a minute to load, you will see Loading graph message in the middle of the screen).
    ![](images/callgraphssc1.png)
