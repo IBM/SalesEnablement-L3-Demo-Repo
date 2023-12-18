@@ -669,21 +669,22 @@
 <p>This time (unlike in Step 7), select only the <strong>SSC1</strong> transaction <strong>(A)</strong>, and this time use the <strong>add selected items</strong> icon (it looks like a play button) <strong>(B)</strong> to just add this one transaction to the <strong>Selected transactions</strong> box on the right. Then click <strong>Finish</strong> <strong>(C)</strong>.
    <img alt="" src="../images/ssc1-select-finish.png" />
    The SSCI transaction graph begins loading. (This may take a minute to load, you will see Loading graph message in the middle of the screen).
-   <img alt="" src="../images/callgraphssc1.png" />
-   A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:
-   - The SSCI’s CICS transactions
-   - The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.
-   - Depending on the function selected, it can perform different operations. In this example: Add/Insert Customer (LGACUS01); Inquire Customer (LGICUS01); Update Customer (LGUCUS01); Writes messages back to the user (LGSTSQ); and, Unknown program with no source code information (AAAAAAAA)</p>
+   <img alt="" src="../images/callgraphssc1.png" /></p>
+<blockquote>
+<p>A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example: the SSCI’s CICS transactions; the main transaction program (LGTESTC1), which calls the SSMAPC1 map; and, depending on the function selected, can perform different operations. In this example; Add/Insert Customer (LGACUS01), Inquire Customer (LGICUS01), Update Customer (LGUCUS01), Writes messages back to the user (LGSTSQ), and Unknown program with no source code information (AAAAAAAA).</p>
+</blockquote>
 </li>
 </ol>
-<p>These programs call data access programs that interact with the table CUSTOMER. For example: Add/Insert Customer (LGACDB01); Inquire Customer (LGICDB01); Update Customer (LGUCDB01); Writes messages back to the user (LGSTSQ); and, Unknown program with no source code information (AAAAAAAA)</p>
+<blockquote>
+<p>These programs call data access programs that interact with the table CUSTOMER. For example; Add/Insert Customer (LGACDB01), Inquire Customer (LGICDB01), Update Customer (LGUCDB01), Writes messages back to the user (LGSTSQ), and Unknown program with no source code information (AAAAAAAA).</p>
+</blockquote>
 <ol start="9">
-<li>Double-click on the <strong>COBOL LGACDB01</strong> white and blue box (A). The code opens at the bottom (B).
+<li>Double-click on the <strong>COBOL LGACDB01</strong> white and blue box <strong>(A)</strong>. The code opens at the bottom <strong>(B)</strong>.
    <img alt="" src="../images/cobollgacdbo1.png" /></li>
-<li>Drag the <strong>LGACDB01</strong> code tab at the bottom, to the right side of the graph (A) in step 9 (before you release your button, you will see guardrails where this window will be placed) so you can see the code beside the navigation view.
+<li>Drag the <strong>LGACDB01</strong> code tab at the bottom, to the right side of the graph <strong>(A)</strong> in step 9 (before you release your button, you will see guardrails where this window will be placed) so you can see the code beside the navigation view.
    <img alt="" src="../images/cobollgacdbo11.png" />
    <strong>Note</strong>: Close all open tabs other than the tabs with the graph and code. The other tabs can be closed via the minimize icon (looks like –) in the top right of each window.</li>
-<li>In the LGACDB01.cbl code, scroll down to the <strong>INSERT-CUSTOMER</strong> section (A), the main function is to insert a record into the CUSTOMER table.
+<li>In the LGACDB01.cbl code, scroll down to the <strong>INSERT-CUSTOMER</strong> section <strong>(A)</strong>, the main function is to insert a record into the CUSTOMER table.
    <img alt="" src="../images/cobollgacdbo12.png" /></li>
 </ol>
 
