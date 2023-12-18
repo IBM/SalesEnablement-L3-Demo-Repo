@@ -673,22 +673,10 @@
    A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:
    - The SSCI’s CICS transactions
    - The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.
-   - Depending on the function selected, it can perform different operations. In this example:</p>
-<ul>
-<li>Add/Insert Customer (LGACUS01)</li>
-<li>Inquire Customer (LGICUS01)</li>
-<li>Update Customer (LGUCUS01)</li>
-<li>Writes messages back to the user (LGSTSQ)</li>
-<li>Unknown program with no source code information (AAAAAAAA)</li>
-</ul>
+   - Depending on the function selected, it can perform different operations. In this example: Add/Insert Customer (LGACUS01); Inquire Customer (LGICUS01); Update Customer (LGUCUS01); Writes messages back to the user (LGSTSQ); and, Unknown program with no source code information (AAAAAAAA)</p>
 </li>
 </ol>
-<p>These programs call data access programs that interact with the table CUSTOMER. For example:
-      - Add/Insert Customer (LGACDB01)
-      - Inquire Customer (LGICDB01)
-      - Update Customer (LGUCDB01)
-      - Writes messages back to the user (LGSTSQ)
-      - Unknown program with no source code information (AAAAAAAA)</p>
+<p>These programs call data access programs that interact with the table CUSTOMER. For example: Add/Insert Customer (LGACDB01); Inquire Customer (LGICDB01); Update Customer (LGUCDB01); Writes messages back to the user (LGSTSQ); and, Unknown program with no source code information (AAAAAAAA)</p>
 <ol start="9">
 <li>Double-click on the <strong>COBOL LGACDB01</strong> white and blue box (A). The code opens at the bottom (B).
    <img alt="" src="../images/cobollgacdbo1.png" /></li>
