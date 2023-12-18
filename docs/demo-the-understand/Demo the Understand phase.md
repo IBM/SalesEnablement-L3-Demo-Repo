@@ -40,22 +40,22 @@
    In this new field, expand the **Mainframe Graphs** twistie **(B)** and double-click the **Transaction Callgraph** option **(A)**.
    ![](images/quickfilter1.png)
    It may take a moment for the pop-up needed to do the next step to open. You will see **executing Transaction Callgraph** at the bottom with a green progress bar.
-   
-8. This time (unlike in Step 7), select only the **SSC1** transaction (A), and this time use the **add selected items** icon (it looks like a play button) (B) to just add this one transaction to the **Selected transactions** box on the right. Then click **Finish** (C).
+
+8. This time (unlike in Step 7), select only the **SSC1** transaction **(A)**, and this time use the **add selected items** icon (it looks like a play button) **(B)** to just add this one transaction to the **Selected transactions** box on the right. Then click **Finish** **(C)**.
    ![](images/ssc1-select-finish.png)
    The SSCI transaction graph begins loading. (This may take a minute to load, you will see Loading graph message in the middle of the screen).
    ![](images/callgraphssc1.png)
    A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:
-   1. The SSCI’s CICS transactions 
-   2. The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.
-   3. Depending on the function selected, it can perform different operations. In this example:
+   - The SSCI’s CICS transactions
+   - The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.
+   - Depending on the function selected, it can perform different operations. In this example:
       - Add/Insert Customer (LGACUS01)
       - Inquire Customer (LGICUS01)
       - Update Customer (LGUCUS01)
       - Writes messages back to the user (LGSTSQ)
       - Unknown program with no source code information (AAAAAAAA)
 
-   4. These programs call data access programs that interact with the table CUSTOMER. For example:
+   These programs call data access programs that interact with the table CUSTOMER. For example:
       - Add/Insert Customer (LGACDB01)
       - Inquire Customer (LGICDB01)
       - Update Customer (LGUCDB01)
