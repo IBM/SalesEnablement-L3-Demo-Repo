@@ -45,18 +45,15 @@
    ![](images/ssc1-select-finish.png)
    The SSCI transaction graph begins loading. (This may take a minute to load, you will see Loading graph message in the middle of the screen).
    ![](images/callgraphssc1.png)
-   A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example:
-   - The SSCI’s CICS transactions
-   - The main transaction program (LGTESTC1). This program calls the SSMAPC1 map.
-   - Depending on the function selected, it can perform different operations. In this example: Add/Insert Customer (LGACUS01); Inquire Customer (LGICUS01); Update Customer (LGUCUS01); Writes messages back to the user (LGSTSQ); and, Unknown program with no source code information (AAAAAAAA)
+   > A transaction callgraph has different components. (Use the pan and zoom tools detailed earlier to look more closely at these components). For example: the SSCI’s CICS transactions; the main transaction program (LGTESTC1), which calls the SSMAPC1 map; and, depending on the function selected, can perform different operations. In this example; Add/Insert Customer (LGACUS01), Inquire Customer (LGICUS01), Update Customer (LGUCUS01), Writes messages back to the user (LGSTSQ), and Unknown program with no source code information (AAAAAAAA).
+   
+   > These programs call data access programs that interact with the table CUSTOMER. For example; Add/Insert Customer (LGACDB01), Inquire Customer (LGICDB01), Update Customer (LGUCDB01), Writes messages back to the user (LGSTSQ), and Unknown program with no source code information (AAAAAAAA).
 
-   These programs call data access programs that interact with the table CUSTOMER. For example: Add/Insert Customer (LGACDB01); Inquire Customer (LGICDB01); Update Customer (LGUCDB01); Writes messages back to the user (LGSTSQ); and, Unknown program with no source code information (AAAAAAAA)
-
-9.	Double-click on the **COBOL LGACDB01** white and blue box (A). The code opens at the bottom (B).
+9.	Double-click on the **COBOL LGACDB01** white and blue box **(A)**. The code opens at the bottom **(B)**.
    ![](images/cobollgacdbo1.png)
-10.	Drag the **LGACDB01** code tab at the bottom, to the right side of the graph (A) in step 9 (before you release your button, you will see guardrails where this window will be placed) so you can see the code beside the navigation view.
+10.	Drag the **LGACDB01** code tab at the bottom, to the right side of the graph **(A)** in step 9 (before you release your button, you will see guardrails where this window will be placed) so you can see the code beside the navigation view.
    ![](images/cobollgacdbo11.png)
    **Note**: Close all open tabs other than the tabs with the graph and code. The other tabs can be closed via the minimize icon (looks like –) in the top right of each window.
-11.	In the LGACDB01.cbl code, scroll down to the **INSERT-CUSTOMER** section (A), the main function is to insert a record into the CUSTOMER table.
+11.	In the LGACDB01.cbl code, scroll down to the **INSERT-CUSTOMER** section **(A)**, the main function is to insert a record into the CUSTOMER table.
    ![](images/cobollgacdbo12.png)
 
